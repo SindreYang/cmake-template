@@ -4,10 +4,8 @@
 
 # CMAKE 模板
 <a href="https://cmake.org/"><img alt="Config: Cmake" src="https://img.shields.io/badge/config-cmake-brightgreen"></a>
-[![Conference](http://img.shields.io/badge/NeurIPS-2022-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
-[![Conference](http://img.shields.io/badge/ICLR-2022-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
-[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
-<!--ARXIV[![Paper](http://img.shields.io/badge/arxiv-math.co:1480.1111-B31B1B.svg)](https://www.nature.com/articles/nature14539)-->
+[![Conference](https://img.shields.io/badge/User-Sindre-orange)]()
+[![Conference](https://img.shields.io/badge/Update-2023-blue)]()
 
 </div>
 
@@ -78,9 +76,9 @@
 
 ```
 # 使用指南
-1. 首先配置最外层"CMakeLists.txt",这里决定全局配置，默认建议从"vcpkg“安装C++库。
-   2. 由**”add_subdirectory(cpp)“** 来选择需要编译的子库
-   3. 由CMake目录下的**”CompileConfig.cmake”**开启优化选项 
-4. 其次，针对子库进行配置，子库的**"CMakeLists.txt"**用于配置该空间下公共库及配置，以及各性化择取需要编译的子子库。
+1. 首先配置最外层**CMakeLists.txt**,这里决定全局配置，默认建议从**vcpkg安装C++库**。
+   1. 由**add_subdirectory(cpp)** 来选择需要编译的子库。
+   2. 由CMake目录下的**CompileConfig.cmake**开启优化选项 。
+2. 其次，针对子库进行配置，子库的**CMakeLists.txt**用于配置该空间下公共库及配置，以及各性化择取需要编译的子子库。
 
 
