@@ -99,3 +99,6 @@
 2. 其次，针对子库进行配置，子库的**CMakeLists.txt**用于配置该空间下公共库及配置，以及各性化择取需要编译的子子库。
 
 
+# 迁移说明
+
+本模板已迁移并重构至 [`SindreTemplate`](https://github.com/SindreYang/SindreTemplate/tree/template/cmake) 的 `template/cmake` 分支。该仓库保留历史记录，不再作为新项目的推荐起点。
